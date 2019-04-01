@@ -235,7 +235,7 @@ $(function() {
     function init() {
 
         // append uv script
-        $('body').append('<script type="text/javascript" id="embedUV" src="/vendor/uv/lib/embed.js"><\/script>');
+        $('body').append('<script type="text/javascript" id="embedUV" src="vendor/uv/lib/embed.js"><\/script>');
 
         $('#manifestSelect').on('change', function(){
             $('#manifest').val($('#manifestSelect option:selected').val());
